@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4C485F40-C870-41D9-844C-C5ED580AB460}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qlt.MsDataverse", "src\Qlt.MsDataverse\Qlt.MsDataverse.csproj", "{D7055E61-6EBD-4FBD-8E6E-B3CD864EE54D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Qlt.MsDataverse", "src\Qlt.MsDataverse\Qlt.MsDataverse.csproj", "{D7055E61-6EBD-4FBD-8E6E-B3CD864EE54D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qlt.MsDataverse.Consoles", "src\Qlt.MsDataverse.Consoles\Qlt.MsDataverse.Consoles.csproj", "{22E6B97C-4DE8-45CC-8FB0-1EDB0993942F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,12 +31,25 @@ Global
 		{D7055E61-6EBD-4FBD-8E6E-B3CD864EE54D}.Release|x64.Build.0 = Release|Any CPU
 		{D7055E61-6EBD-4FBD-8E6E-B3CD864EE54D}.Release|x86.ActiveCfg = Release|Any CPU
 		{D7055E61-6EBD-4FBD-8E6E-B3CD864EE54D}.Release|x86.Build.0 = Release|Any CPU
+		{22E6B97C-4DE8-45CC-8FB0-1EDB0993942F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22E6B97C-4DE8-45CC-8FB0-1EDB0993942F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22E6B97C-4DE8-45CC-8FB0-1EDB0993942F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{22E6B97C-4DE8-45CC-8FB0-1EDB0993942F}.Debug|x64.Build.0 = Debug|Any CPU
+		{22E6B97C-4DE8-45CC-8FB0-1EDB0993942F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{22E6B97C-4DE8-45CC-8FB0-1EDB0993942F}.Debug|x86.Build.0 = Debug|Any CPU
+		{22E6B97C-4DE8-45CC-8FB0-1EDB0993942F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22E6B97C-4DE8-45CC-8FB0-1EDB0993942F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22E6B97C-4DE8-45CC-8FB0-1EDB0993942F}.Release|x64.ActiveCfg = Release|Any CPU
+		{22E6B97C-4DE8-45CC-8FB0-1EDB0993942F}.Release|x64.Build.0 = Release|Any CPU
+		{22E6B97C-4DE8-45CC-8FB0-1EDB0993942F}.Release|x86.ActiveCfg = Release|Any CPU
+		{22E6B97C-4DE8-45CC-8FB0-1EDB0993942F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D7055E61-6EBD-4FBD-8E6E-B3CD864EE54D} = {4C485F40-C870-41D9-844C-C5ED580AB460}
+		{22E6B97C-4DE8-45CC-8FB0-1EDB0993942F} = {4C485F40-C870-41D9-844C-C5ED580AB460}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2FAFED6F-E3F0-4283-9926-ADB57DFC4960}
